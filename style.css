@@ -1,0 +1,8 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
+.card{
+    margin-top: 5%;
+}
+.carousel-item{
+    height: 600px;
+}
