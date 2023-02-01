@@ -19,3 +19,11 @@ h2::after{
     content: "🤑";
 }
 
+.inicio{
+    width: 500px;
+    text-align: center;
+}
+.buton{
+   margin-left: 3%;
+}
+
