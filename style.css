@@ -9,6 +9,7 @@
 
 h2{
     margin-top: 3%;
+    
     text-align: center;
 }
 h2::before{
@@ -25,5 +26,10 @@ h2::after{
 }
 .buton{
    margin-left: 3%;
+}
+
+.home{
+   padding: 4%;
+   border-radius: 40px;
 }
 
