@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #ffffff;
+    margin-top: 1%;
+    
+}
+input{
+    display: block;
+    text-align: center;
+    width: 15%;
+    background-color: initial;
+    margin: 0.5rem auto ;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 30px;
+    
+
+}
+
+.ok{  
+
+    text-align: center;
+    margin-top: 15%;
+    
+}
+
+body{
+    background-image: url(../img/paisagem.jpg);
+}
+
+.cad{
+    color: lightcoral;
+    text-decoration: none; 
+    font-size: 1.5rem;
+}
+.aqui{
+    color: #070707;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 3px;
+}
+
+a:hover{
+    border: 1px solid black; 
+    border-radius: 25px;
+    background-color: aqua; 
+}
+
+span{
+    color: #ffffff;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+button{
+    padding: 5px;
+    border: none;
+    width: 15%;
+    font-size: 1.5rem;
+    background-color: initial;
+    color: #ffffff;
+    
+    
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 2ex;
+}
+::placeholder{
+    color: #ffffff;
+}
+
+p{
+    
+    margin-top: 3%;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid rgb(12, 12, 12);
+    border-radius: 25px;
+    background-color: lightcoral;
+}
+
+
+
+
+
+
+
