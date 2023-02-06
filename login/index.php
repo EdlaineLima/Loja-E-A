@@ -18,13 +18,11 @@ session_start();
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="img/logo.png" alt="logo"></a>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Pesquise aqui" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-                </form>
+                <a class="navbar-brand" href="../index.html">
+                    <img src="img/logo.png" alt="logo"> Home</a>
+                
             </div>
         </nav>
     </header>
@@ -45,7 +43,7 @@ session_start();
 
         <div class="form-login">
 
-            <h1 class="titulo-login">LOGIN</h1>
+            <h1>LOGIN</h1>
 
             <form action="login.php" method="POST">
 

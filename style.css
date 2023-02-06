@@ -1,16 +1,26 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
 
-.card{
-    margin-top: 5%;
-}
-.carousel-item{
-    height: 600px;
+body {
+  /* Para o rodapé */
+  position: relative;
+  width: 100%;
 }
 
-h2{
-    margin-top: 3%;
-    
-    text-align: center;
+/* HOME NAVEGABILIDADE */
+.navbar-brand {
+  gap: 15px;
+  font-size: 18px;
+  transition: all 500ms;
+}
+
+.navbar-brand:hover {
+    background-color: #ce07cb86;
+    border-radius: 10px;
+    font-size: 28px;
+}
+
+.home_pesquisa {
+  display: none !important;
 }
 
 /* CAROUSEL */
@@ -32,8 +42,73 @@ h2{
   content: "🤑";
 }
 
-.inicio{
-    width: 500px;
+.home_cards > h2::after {
+  content: "!!!🤑";
+}
+
+/* CARDS */
+.card_home {
+  padding: 15px 15px 25px 10px;
+  border: 1.5px solid rgba(97, 94, 94, 0.582);
+}
+
+.card-title {
+  text-align: center;
+  margin: 8px 0px 10px 0px;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+/* RODAPÉ */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(73, 72, 72, 0.548);
+  padding-top: 8px;
+}
+
+footer > a {
+  padding: .25rem;
+  text-decoration: none;
+  color: blueviolet;
+}
+
+footer>a:hover {
+  background-color: green;
+  color: navy;
+}
+
+footer i {
+  font-size: 1.5rem;
+  color: red;
+}
+
+
+footer > div > small {
+  padding: 5px;
+  display: block;
+}
+
+
+@media (min-width: 768px) {
+  /* HOME NAVEGAÇÃO */
+  .navbar-brand {
+    font-size: 25px;
+  }
+
+  .home_pesquisa {
+    display: flex !important;
+    gap: 10px;
+  }
+
+  /* CAMPO DE PESQUISA */
+  .inicio {
+    width: 250px;
     text-align: center;
   }
 
