@@ -14,9 +14,9 @@ body {
 }
 
 .navbar-brand:hover {
-    background-color: #ce07cb86;
-    border-radius: 10px;
-    font-size: 28px;
+  background-color: #ce07cb86;
+  border-radius: 10px;
+  font-size: 28px;
 }
 
 .home_pesquisa {
@@ -34,7 +34,7 @@ body {
   font-size: 20px;
   color: green;
   text-align: center;
-  padding-top: 8px;
+  padding: 10px 10px;
   text-transform: uppercase;
   text-decoration: underline;
 }
@@ -43,7 +43,7 @@ body {
 }
 
 .home_cards > h2::after {
-  content: "!!!🤑";
+  content: "🤑";
 }
 
 /* CARDS */
@@ -52,15 +52,25 @@ body {
   border: 1.5px solid rgba(97, 94, 94, 0.582);
 }
 
+.valor {
+  color: gray;
+  text-decoration: line-through;
+  text-align: center;
+  margin: 8px 0;
+  font-size: 18px;
+}
 .card-title {
   text-align: center;
-  margin: 8px 0px 10px 0px;
+  margin: 0px 0px 10px 0px;
   font-weight: 700;
   font-size: 23px;
+  color: green;
 }
 
 .card-text {
   font-size: 18px;
+  font-weight: 700;
+  text-align: center;
 }
 
 /* RODAPÉ */
@@ -73,12 +83,12 @@ footer {
 }
 
 footer > a {
-  padding: .25rem;
+  padding: 0.25rem;
   text-decoration: none;
   color: blueviolet;
 }
 
-footer>a:hover {
+footer > a:hover {
   background-color: green;
   color: navy;
 }
@@ -88,12 +98,10 @@ footer i {
   color: red;
 }
 
-
 footer > div > small {
   padding: 5px;
   display: block;
 }
-
 
 @media (min-width: 768px) {
   /* HOME NAVEGAÇÃO */
@@ -126,14 +134,18 @@ footer > div > small {
     font-size: 20px;
   }
 
-   /* HOME CARROUSEL */
-   .carousel-item {
+  /* HOME CARROUSEL */
+  .carousel-item {
     height: 700px;
-
   }
 
   /* CARDS TÍTULO*/
-.home_cards > h2 {
-    font-size: 30px;
+  .home_cards > h2 {
+    font-size: 40px;
+    padding: 20px 35px;
   }
+
+  .card-text {
+  font-size: 23px;
+}
 }

@@ -1,0 +1,53 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+html,
+body {
+    /* Para o rodapé */
+    height: 100%;
+    margin: 0;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    min-height: 100%;
+    
+}
+
+.container-fluid>a {
+    margin: 10px 15px 0 15px;
+    text-decoration: none;
+    color: rgb(89, 21, 153);
+}
+
+.container-fluid>h2 {
+    color: blueviolet;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rebeccapurple;
+    margin: 15px;
+}
+
+.img-checkout {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 767px) {
+    .img-checkout {
+        height: 100vh;
+    }
+
+    footer {
+        position: relative;
+        margin-top: 15px;
+    }
+}

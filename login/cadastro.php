@@ -12,13 +12,14 @@ session_start();
     <link rel="stylesheet" href="css/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Tela de Login</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="img/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="../index.html"><img src="img/logo.png" alt="logo"> HOME</a>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Pesquise aqui" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Pesquisar</button>
