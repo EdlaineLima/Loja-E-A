@@ -85,22 +85,29 @@ footer {
 footer > a {
   padding: 0.25rem;
   text-decoration: none;
-  color: blueviolet;
 }
 
 footer > a:hover {
-  background-color: green;
-  color: navy;
+  background-color: rgb(53, 4, 46);
 }
 
 footer i {
-  font-size: 1.5rem;
-  color: red;
+  font-size: 2.5rem;
+  color: #ce07cb86;
+  margin: 8px;
 }
 
-footer > div > small {
-  padding: 5px;
+footer > div {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+footer > div > small > a{
+  padding: 10px;
+  text-decoration: none;
   display: block;
+  text-align: center;
+  color: blueviolet;
 }
 
 @media (min-width: 768px) {

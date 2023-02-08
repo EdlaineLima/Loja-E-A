@@ -32,10 +32,18 @@ include('verifica_login.php');
 
     </div>
 
-
     <footer>
-        <!-- Link para o topo desta mesma página -->
-        <a href="#top" title="Topo da Página"><i class="fa-solid fa-fw fa-circle-up"></i></a>
-    </footer>
+            <!-- Link para a página inicial -->
+            <a href="../index.html"><i title="página inicial" class="fa-solid fa-fw fa-house"></i></a>
+
+            <!-- Mensagem de Copyright e privacidade -->
+            <div>
+                &copy; 2023 Criado por Edlaine e Ana
+                <small><a href="../polices.html" target="_blank" title="Politicas de Privacidade">Políticas de Privacidade</a></small>
+            </div>
+
+            <!-- Link para o topo desta mesma página -->
+            <a href="#top" title="Topo da Página"><i class="fa-solid fa-fw fa-circle-up"></i></a>
+        </footer>
 
 </body>
