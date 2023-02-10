@@ -73,6 +73,10 @@ body {
   text-align: center;
 }
 
+.btn{
+  margin-left: 35%;
+}
+
 /* RODAPÉ */
 footer {
   display: flex;
@@ -131,6 +135,15 @@ footer > div > small > a{
   .carousel-item {
     height: 515px;
   }
+
+  .btn {
+    margin-left: 40%;
+  }
+
+  .btn > a {
+    text-decoration: none;
+  }
+
 }
 
 @media (min-width: 1280px) {
